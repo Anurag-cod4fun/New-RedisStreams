@@ -1,4 +1,5 @@
 package com.example.demotwo.dto;
+import java.io.Serializable;
 
 public class EventEnvelope implements Serializable {
     private static final long serialVersionUID = 1L;
