@@ -1,8 +1,21 @@
 package com.example.demotwo.dto;
 
-public class EventEnvelope {
+public class EventEnvelope implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String eventType;
     private User user;
+
+    public String getEventType() {
+		return eventType;
+	}
+
+	public void setEventType(String eventType) {
+		this.eventType = eventType;
+	}
+
+	public User getUser() {
+		return user;
+	}
 
     public EventEnvelope() {}
 
